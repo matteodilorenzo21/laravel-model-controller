@@ -12,7 +12,8 @@
 </head>
 
 <body>
-
+    <!-- Content -->
+    @yield('content')
 </body>
 
 </html>
