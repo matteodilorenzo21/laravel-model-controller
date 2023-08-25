@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @php
-    $movies = App\Models\Movie::all(); // Recupero dei dati dei film direttamente nella vista
+    $movies = App\Models\Movie::all();
 @endphp
 
 @section('content')
